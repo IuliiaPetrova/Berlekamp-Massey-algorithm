@@ -11,7 +11,7 @@ def myLFSR(initialstates, coef, num):
      ints.append(t)
   return ints
 
-
+# reverse the list
 def mirror(p):
   l=list(p)
   l.reverse()
